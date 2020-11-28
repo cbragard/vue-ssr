@@ -1,0 +1,17 @@
+{
+    "en": {
+        "page.login.h1": "login",
+        "page.login.form.email-placeholder": "email",
+        "page.login.form.pwd-placeholder": "password",
+        "page.login.submit": "submit",
+        "page.login.register": "register",
+        "page.login.error.invalid": "invalid login",
+        "page.register.h1": "register",
+        "page.register.form.email-placeholder": "email",
+        "page.register.form.pwd-placeholder": "password",
+        "page.register.submit": "submit",
+        "page.register.login": "login"
+    },
+    "fr": {
+    }
+}

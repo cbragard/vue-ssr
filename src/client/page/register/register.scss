@@ -1,0 +1,17 @@
+@import '../../scss/import';
+
+.page--login {
+    @include page-1;
+
+    .notice {
+        @include notice-1;
+    }
+
+    .form {
+        @include form-1;
+    }
+
+    .container {
+        text-align: center;
+    }
+}

@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+    node:
+        container_name: node
+        restart: 'unless-stopped'
+        build:
+            context: 'docker/node'
+        volumes:
+            - '.:/app'
+        ports:
+            - 80:80
+            - 3001:3001
+        env_file:
+            - .env/dev.env
+    mongo:
+        container_name: mongo
+        restart: 'unless-stopped'
+        build:
+            context: 'docker/mongo'
+        volumes:
+            - './data:/data'
+        ports:
+            - 27017:27017
+            - 28017:28017
